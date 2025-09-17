@@ -1,0 +1,11 @@
+pymupdf
+PyPDF2 
+ollama 
+requests
+pandas
+rapidfuzz
+tqdm
+scikit-learn
+openai
+reportlab
+matplotlib
