@@ -27,6 +27,7 @@ from gdd_analyzer.mapping.label_mapper import (
 from gdd_analyzer.analyzer.openai_analyzer import (
     concat_section_text_by_mapped_category,
     run_openai_analysis,
+    extract_keywords
 )
 from gdd_analyzer.report.gdd_report import ReportConfig, ReportGenerator, build_mapping
 
@@ -301,6 +302,9 @@ if __name__ == "__main__":
             prompt_file=Path("gdd_analyzer/prompts/pormpt_openai.txt"),  # your openai prompt
         ),
     )
+
+    # extract_keywords 
+    # forgot add TODO
 
     pipeline.run()
 
