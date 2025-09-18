@@ -307,6 +307,7 @@ def pretty_print_df(df: pd.DataFrame) -> None:
 # Minimalny main — identyczny przebieg jak u Ciebie
 # ---------------------------
 
+'''
 def main() -> None:
     filepath = "FinalData_mapped.csv"
 
@@ -331,3 +332,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+'''
